@@ -11,10 +11,10 @@ const NavbarComp = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="d-flex align-items-center">
                         <Nav className="me-auto navgang">
-                            <Nav.Link href="/kapcsolat" className="text-white">
+                            <Nav.Link href="/contact" className="text-white">
                                 Contacts
                             </Nav.Link>
-                            <Nav.Link href="/blog" className="text-white">
+                            <Nav.Link href="/achieve" className="text-white">
                                 Achievements
                             </Nav.Link>
                             <Nav.Link href="/aboutme" className="text-white">

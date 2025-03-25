@@ -9,7 +9,7 @@ body{
     width: 600px;
     height: 400px;
     margin-top: 250px;
-    margin-bottom: auto;
+    margin-bottom: 250px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -42,4 +42,44 @@ body{
     font-style: italic;
     text-align: center;
     font-size: 25px;
+}
+
+.intrest-container{
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.intrest-container h1 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.me-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
 }
