@@ -29,7 +29,7 @@ const MainPage = () => {
                 <h1>Interesting things about me</h1>
 
                 <Container fluid className="me-container">
-                    <Row className="d-flex flex-nowrap align-items-center">
+                    <Row className="d-flex flex-nowrap align-items-center mb-4">
                         <Col lg={6} className="gallery">
                             <img
                                 src={audiImg}
@@ -55,11 +55,10 @@ const MainPage = () => {
                         <Col
                             lg={6}
                             className="d-flex flex-column justify-content-start"
-                            style={{ width: '300px' }}
-
+                            style={{ width: '400px' }}
                         >
                             <p style={{ fontSize: '20px' }}>
-                               - Last year I got my first car, so now I am driving an{' '}
+                                - Last year I got my first car, so now I am driving an{' '}
                                 <strong>Audi A3 '03.</strong>
                             </p>
                             <p style={{ fontSize: '20px' }}>
@@ -71,13 +70,16 @@ const MainPage = () => {
                                 healty can <strong>boost</strong> your <strong>work moral</strong>
                             </p>
                             <p style={{ fontSize: '20px' }}>
-                                - I think one of my good traits that I'm very <strong>open to learn new things</strong>, that's why sometimes I like to do some <strong>coding in my free time</strong> to learn something new.
+                                - I think one of my good traits that I'm very{' '}
+                                <strong>open to learn new things</strong>, that's why sometimes I
+                                like to do some <strong>coding in my free time</strong> to learn
+                                something new.
                             </p>
                         </Col>
                     </Row>
                 </Container>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 };
