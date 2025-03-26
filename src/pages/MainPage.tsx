@@ -1,4 +1,4 @@
-import NavbarComp from '../components/NavbarComp';
+import Navbar from '../components/NavbarComp';
 import '../styles/MainPageStyle.css';
 import cardImg from '../img/cardImg.jpg';
 import audiImg from '../img/audi.jpeg';
@@ -6,11 +6,12 @@ import aziImg from '../img/azi.jpg';
 import gymImg from '../img/Gym.png';
 import codingImg from '../img/coding.jpg';
 import { Col, Container, Row } from 'react-bootstrap';
+import Footer from '../components/FooterComp';
 
 const MainPage = () => {
     return (
         <div>
-            <NavbarComp />
+            <Navbar />
             <div className="stack-container">
                 <div className="card">
                     <h2>
@@ -76,6 +77,7 @@ const MainPage = () => {
                     </Row>
                 </Container>
             </div>
+            <Footer/>
         </div>
     );
 };
