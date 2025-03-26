@@ -55,7 +55,12 @@ const MainPage = () => {
                             lg={6}
                             className="d-flex flex-column justify-content-start"
                             style={{ width: '300px' }}
+
                         >
+                            <p style={{ fontSize: '20px' }}>
+                               - Last year I got my first car, so now I am driving an{' '}
+                                <strong>Audi A3 '03.</strong>
+                            </p>
                             <p style={{ fontSize: '20px' }}>
                                 - In my free time I like to listen to music, my favourite artist is
                                 <strong> Azahriah</strong>
@@ -65,8 +70,7 @@ const MainPage = () => {
                                 healty can <strong>boost</strong> your <strong>work moral</strong>
                             </p>
                             <p style={{ fontSize: '20px' }}>
-                                Last year I got my first car, so now I am driving an{' '}
-                                <strong>Audi A3 '03.</strong>
+                                - I think one of my good traits that I'm very <strong>open to learn new things</strong>, that's why sometimes I like to do some <strong>coding in my free time</strong> to learn something new.
                             </p>
                         </Col>
                     </Row>

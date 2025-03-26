@@ -1,6 +1,4 @@
-
-
-body{
+body {
     background-color: beige;
 }
 
@@ -29,22 +27,36 @@ body{
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.card:nth-child(1) { background: grey; z-index: 3; transform: rotate(-20deg); }
-.card:nth-child(2) { background: grey; z-index: 2; transform: rotate(-15deg); }
-.card:nth-child(3) { background: grey; z-index: 1; transform: rotate(-10deg); }
+.card:nth-child(1) {
+    background: grey;
+    z-index: 3;
+    transform: rotate(-20deg);
+}
+
+.card:nth-child(2) {
+    background: grey;
+    z-index: 2;
+    transform: rotate(-15deg);
+}
+
+.card:nth-child(3) {
+    background: grey;
+    z-index: 1;
+    transform: rotate(-10deg);
+}
 
 /* Hover Effect to Lift the Top Card */
-.stack-container:hover .card:nth-child(1) {
+.stack-container:hover .card {
     transform: translateY(10px);
 }
 
-.qoute{
+.qoute {
     font-style: italic;
     text-align: center;
     font-size: 25px;
 }
 
-.intrest-container{
+.intrest-container {
     color: white;
     width: 100%;
     height: auto;
@@ -57,7 +69,7 @@ body{
     font-weight: bold;
 }
 
-.me-container{
+.me-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +78,7 @@ body{
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     width: 100%;
     max-width: 700px;
