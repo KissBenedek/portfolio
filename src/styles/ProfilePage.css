@@ -1,0 +1,15 @@
+.profileImg{
+    height: 350px;
+    width: 250px;
+}
+
+.content-profile{
+    height: auto;
+    width: 250px;
+}
+
+.my-name{
+    font-weight: bold;
+    font-size: 60px;
+}
+
