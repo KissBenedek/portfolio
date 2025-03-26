@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import Contacts from './pages/Contacts';
+import ProfilePage from './pages/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
@@ -14,6 +15,7 @@ root.render(
             <Routes>
                 <Route path="/" element={<MainPage />} />
                 <Route path="/contact" element={<Contacts />} />
+                <Route path="/aboutme" element={<ProfilePage />} />
             </Routes>
         </BrowserRouter>
     </React.StrictMode>,
