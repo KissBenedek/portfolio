@@ -19,7 +19,11 @@ const MainPage = () => {
                     </h2>
                     <p className="qoute">"Creativity, skill, and passion - all in one place!"</p>
                     <p>
-                        <img src={cardImg} alt="gang" style={{ width: '250px', height: '250px' }} />
+                        <img
+                            src={cardImg}
+                            alt="gang"
+                            style={{ width: '250px', height: 'auto', maxHeight: '400px' }}
+                        />
                     </p>
                 </div>
                 <div className="card"></div>

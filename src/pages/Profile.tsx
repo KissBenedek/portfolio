@@ -23,6 +23,7 @@ const ProfilePage = () => {
                 <Row className="justify-content-center mb-5">
                     <Col md={10} lg={8} className="mb-4 text-center" style={{ maxWidth: '500px' }}>
                         <h3 className="mb-3">Profile</h3>
+                        <hr />
                         <p>
                             Highly motivated and analytical software developer with expertise in C#,
                             web development, and a passion for creating efficient, user-friendly
@@ -67,6 +68,7 @@ const ProfilePage = () => {
                 <Row className="justify-content-center mb-5">
                     <Col md={8} lg={6} className="mb-4">
                         <h3 className="text-center mb-3">Hobbies</h3>
+                        <hr className="mb-3 mx-auto" style={{ width: '250px' }} />
                         <ul className="text-center list-unstyled">
                             <li>🏋️‍♂️ Going to the gym</li>
                             <li>🎮 Gaming</li>
